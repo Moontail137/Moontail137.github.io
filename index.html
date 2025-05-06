@@ -2,28 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Animation Site - Home</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Animation History - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="sidebar">
-    <a href="index.html">Home</a>
-    <a href="intro.html">Introduction</a>
-    <a href="hist.html">History</a>
-    <a href="earlytech.html">Early Techniques</a>
-    <a href="modtech.html">Modern Techniques</a>
-  </div>
+  <header class="topbar">
+    <h1 class="dropdown">
+      Navigation ▾
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="intro.html">Introduction</a>
+        <a href="hist.html">History</a>
+        <a href="earlytech.html">Early Techniques</a>
+        <a href="modtech.html">Modern Techniques</a>
+        <a href="sources.html">Sources</a>
+      </div>
+    </h1>
+  </header>
+
   <div class="main-content">
-    <h1>Welcome to the Animation Site</h1>
+    <h2>Welcome!</h2>
     <p>Explore the evolution of animation from its origins to modern innovations.</p>
 
-    <h2>Pages:</h2>
-    <ul>
-      <li><strong>Introduction</strong> – A brief introduction to what animation is</li>
-      <li><strong>History</strong> – A brief history of animation</li>
-      <li><strong>Early Techniques</strong> – Early animation techniques and styles over time</li>
-      <li><strong>Modern Techniques</strong> – Contemporary styles and the future of animation</li>
-    </ul>
+    <div class="card-container">
+      <a class="info-card" href="intro.html">
+        <h3>Introduction</h3>
+        <p>A brief introduction to what animation is.</p>
+      </a>
+      <a class="info-card" href="hist.html">
+        <h3>History</h3>
+        <p>A brief history of animation.</p>
+      </a>
+      <a class="info-card" href="earlytech.html">
+        <h3>Early Techniques</h3>
+        <p>Early animation techniques and styles over time.</p>
+      </a>
+      <a class="info-card" href="modtech.html">
+        <h3>Modern Techniques</h3>
+        <p>Contemporary styles and the future of animation.</p>
+      </a>
+    </div>
   </div>
 </body>
 </html>
+
+<div class="nav-buttons">
+    <div class="nav-card left">
+      <a href="sources.html">← Sources</a>
+    </div>
+    <div class="nav-card right">
+      <a href="intro.html">Introduction →</a>
+    </div>
+  </div>
+  
